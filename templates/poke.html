@@ -6,6 +6,26 @@
     <title>Document</title>
 </head>
 <body>
+    {{{ nombre }}}
+    <img src="{{ imagen }}" alt="{{ nombre }}">
+    <h2>Tipos</h2>
+    <ul>
+        {% for tipo in tipos %}
+            <li>{{ tipo }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Habilidades</h2>
+    <ul>
+        {% for habilidad in habilidades %}
+            <li>{{ habilidad }}</li>
+        {% endfor %}
+    </ul>
+    <h2>Estadísticas</h2>
+    <ul>
+        {% for estadistica, valor in estadisticas.items() %}
+            <li>{{ estadistica }}: {{ valor }}</li>
+        {% endfor %}
+    </ul>
     
 </body>
 </html>
