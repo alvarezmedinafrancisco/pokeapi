@@ -1,0 +1,6 @@
+search 
+input
+button 
+tarjeta con el nombre del pokemon 
+img en el body 
+pie de que tipo de pokemon es
