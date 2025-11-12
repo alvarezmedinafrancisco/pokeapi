@@ -1,5 +1,5 @@
 from flask import Flask , render_template , request , redirect , url_for , flash
-import requests
+import requests 
 app = Flask(__name__)
 app.secret_key = 'contraseñaipermegasecreta'
 pokeapi_url = 'https://pokeapi.co/api/v2/pokemon/'
